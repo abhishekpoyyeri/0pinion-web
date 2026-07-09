@@ -19,8 +19,7 @@ export default function Header() {
           <img src="/assets/title.png" alt="0pinion" className="title-img" />
         </div>
         <nav className="nav">
-          <a href="#features" className="nav-link">Platform</a>
-          <a href="#community" className="nav-link">Community</a>
+
           <a href="#join" className="btn btn-secondary btn-sm">Enter App</a>
         </nav>
       </div>

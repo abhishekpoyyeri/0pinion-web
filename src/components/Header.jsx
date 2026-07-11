@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 export default function Header() {
@@ -20,7 +21,7 @@ export default function Header() {
         </div>
         <nav className="nav">
 
-          <a href="#join" className="btn btn-secondary btn-sm">Enter App</a>
+          <Link to="/login" className="btn btn-secondary btn-sm">Enter App</Link>
         </nav>
       </div>
     </header>
